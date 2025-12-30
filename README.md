@@ -12,11 +12,17 @@ On Ubuntu:
 
 ```
 apt-get update
-apt-get install gnat make
+apt-get install gnat gprbuild make
 ```
 
 Compiling:
 
 ```
 make
+```
+
+Running:
+
+```
+./main
 ```

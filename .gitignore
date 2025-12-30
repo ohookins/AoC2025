@@ -4,4 +4,8 @@
 # Ada Library Information
 *.ali
 
-aoc
+# Compiled object files
+obj/*
+
+# Main binary executable
+main
