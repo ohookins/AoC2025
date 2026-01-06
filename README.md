@@ -24,5 +24,7 @@ make
 Running:
 
 ```
-./main
+./main -d <DAY> [-t]
 ```
+
+`-t` runs with test input instead of the personalised input data for me.
