@@ -1,4 +1,8 @@
 project AoC2025 is
+   package Compiler is
+      for Switches ("Ada") use ("-g");
+    end Compiler;
+
    for Source_Dirs use (".", "day1");
    for Main use ("main.adb");
    for Object_Dir use "obj";
